@@ -1,0 +1,8 @@
+@font-face {
+    font-family: mojfontbold;
+    src: url("./font/SFPRODISPLAYBOLD.OTF");
+}
+
+#container{
+    font-family: mojfontbold;
+}
