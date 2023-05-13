@@ -1,8 +1,9 @@
 @font-face {
     font-family: mojfontbold;
-    src: url("./font/SFPRODISPLAYBOLD.OTF");
+    src: url("./font/GTWalsheim-Regular.otf");
 }
 
 #container{
     font-family: mojfontbold;
+    font-weight: 600;
 }
