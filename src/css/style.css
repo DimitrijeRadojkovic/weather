@@ -1,9 +1,23 @@
 @font-face {
     font-family: mojfontbold;
-    src: url("./font/GTWalsheim-Regular.otf");
+    src: url("./font/SFPRODISPLAYBOLD.OTF");
 }
 
 #container{
     font-family: mojfontbold;
     font-weight: 600;
+}
+
+.roundedShadow{
+    background: #ffffff;
+    box-shadow: 11px 11px 40px #2091c1, -11px -11px 40px #2cc4ff;
+}
+
+.onclick{
+    background: rgb(164,70,204);
+    background: linear-gradient(62deg, rgba(164,70,204,1) 49%, rgba(95,28,195,1) 100%);
+}
+
+.roundedShadow, .onclick{
+    border-radius: 30px;
 }

@@ -25,7 +25,7 @@ export default function App(){
     const longitude = position.coords.longitude;
     setLocation({ok:true, latitude, longitude});
 
-    const res = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&&daily=apparent_temperature_max&timezone=auto`);
+    const res = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=483852b289de4f9ab74193927221012&q=${latitude},${longitude} `);
     const json = await res.json();
     setWeather(json);
     
